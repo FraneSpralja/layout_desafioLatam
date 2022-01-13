@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderas | Desafio Latam</title>
+    <style media="screen" type="text/css">
+
+        .main {
+            display: flex;
+            flex-flow: row wrap;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+        .section {
+            width: 700px;
+            height: 370px;
+            margin: auto;
+            border: 1px solid gray;
+        }
+
+        /*SPAIN*/
+        .spain__red {
+            background-color: red;
+            height: 85px;
+            width: 100%;
+        }
+
+        .spain_yellow {
+            background-color: yellow;
+            height: 200px;
+            width: 100%;
+        }
+
+        /*DENMARK*/
+        .denmark__red {
+            background-color: red;
+            width: 100%;
+            height: 370px;
+        }
+
+        .denmark__white_hor {
+            background-color: #fff;
+            width: 100%;
+            height: 20px;
+            position: absolute;
+            top: 25%;
+        }
+
+        .denmark__white_ver {
+            background-color: #fff;
+            width: 20px;
+            height: 370px;
+            position: absolute;
+            top: 1.15%;
+            left: 67%;
+        }
+
+        /*EMIRATOS ARABES*/
+        .emirArab {
+            display: flex;
+        }
+
+        .emirArab__red {
+            background-color: red;
+            width: 20%;
+            height: 370px;
+        }
+
+        .emirArab_tri {
+            width: 80%;
+        }
+
+        .emirArab__green {
+            background-color: green;
+            width: 100%;
+            height: 123px;
+        }
+
+        .emirArab__white {
+            background-color: white;
+            width: 100%;
+            height: 123px;
+        }
+
+        .emirArab__black {
+            background-color: black;
+            width: 100%;
+            height: 123px;
+        }
+
+        /*JAPAN*/
+        .japan__white {
+            width: 100%;
+            height: 370px;
+            background-color: white;
+        }
+
+        .japan__red {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 70%;
+            left: 70%;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <section class="section">
+            <div class="spain">
+                <div class="spain__red"></div>
+                <div class="spain_yellow"></div>
+                <div class="spain__red"></div>
+            </div>
+            <div>España</div>
+        </section>
+        <section class="section">
+            <div class="denmark">
+                <div class="denmark__red"></div>
+                <div class="denmark__white_hor"></div>
+                <div class="denmark__white_ver"></div>
+            </div>
+            <div>Dinamarca</div>
+        </section>
+        <section class="section">
+            <div class="emirArab">
+                <div class="emirArab__red"></div>
+                <div class="emirArab_tri">
+                    <div class="emirArab__green"></div>
+                    <div class="emirArab__white"></div>
+                    <div class="emirArab__black"></div>
+                </div>
+            </div>
+            <div>Emiratos Árabes</div>
+        </section>
+        <section class="section">
+            <div class="japan__white">
+                <div class="japan__red"></div>
+            </div>
+            <div>Japón</div>
+        </section>
+    </main>
+</body>
+</html>
